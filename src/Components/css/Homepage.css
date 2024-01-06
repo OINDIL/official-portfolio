@@ -71,7 +71,7 @@ button:hover{
         align-items: center;
         justify-content: flex-start;
         width: 100%;
-        padding: 50px;
+        padding: 50px 20px;
     }
     .intro-text p:nth-child(1){
         font-size: 1.7em;
@@ -92,7 +92,7 @@ button:hover{
         border-radius: 0%;
     }
     .intro-text{
-        justify-content: center;
+        justify-content: flex-start;
         font-size: 1.4em;
         height: 60%;
     }

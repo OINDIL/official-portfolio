@@ -1,5 +1,4 @@
 .about-section{
-    /* background-color: bisque; */
     width: 100vw;
     height: 100vh;
     display: flex;
@@ -9,6 +8,10 @@
 }
 .intro-about{
     width: 100%;
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     text-align: center;
     font-size: 2em;
     color: #3c4043;
@@ -19,10 +22,9 @@
     align-items: center;
     background-color: #cddef5;
     border-radius: 30px;
-    height: 85vh;
+    height: 100vh;
 }
 .about-image{
-    /* background-color: aqua; */
     height: 90%;
     width: 40%;
     display: flex;
@@ -34,7 +36,6 @@
     border-radius: 100%;
 }
 .about-tech-stack{
-    /* background-color: blue; */
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -70,4 +71,61 @@
 .button button:hover{
     color: white;
     background-color: #3c4043;
+}
+/*  */
+@media(max-width:768px){
+    .about-container{
+        flex-direction: column;
+        height: 190vh;
+        height: 100vh;
+    }
+    .intro-about{
+        font-size: 1.4em;
+    }
+    .about-container{
+        flex-direction: column;
+        width: 80%;
+        border-radius: 0%;
+        border-radius: 30px;
+    }
+    .about-image{
+        width: 100%;
+    }
+    .about-tech-stack{
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        font-size: 0.7em;
+        width: 100%;
+    }
+}
+@media(max-width:480px){
+    .about-container{
+        height: 190vh;
+        width: 100%;
+        flex-direction: column;
+        border-radius: 0%;
+    }
+    .intro-about{
+        font-size: 1.4em;
+    }
+    .about-image{
+        height: 50%;
+        align-items: center;
+        width: 90%;
+    }
+    .about-tech-stack{
+        gap: 10px;
+        width: 90%;
+        height: 50%;
+        text-align: center;
+        justify-content: flex-start;
+        font-size: 0.7em;
+    }
+    .about-tech-stack p:nth-child(1){
+        font-size: 2.5em;
+    }
+    .skill-icons{
+        font-size: 3.5em;
+    }
 }
