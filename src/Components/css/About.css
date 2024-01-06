@@ -1,0 +1,73 @@
+.about-section{
+    /* background-color: bisque; */
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.intro-about{
+    width: 100%;
+    text-align: center;
+    font-size: 2em;
+    color: #3c4043;
+}
+.about-container{
+    width: 90vw;
+    display: flex;
+    align-items: center;
+    background-color: #cddef5;
+    border-radius: 30px;
+    height: 85vh;
+}
+.about-image{
+    /* background-color: aqua; */
+    height: 90%;
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.about-image img{
+    width: 60%;
+    border-radius: 100%;
+}
+.about-tech-stack{
+    /* background-color: blue; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: #3c4043;
+    height: 90%;
+    width: 60%;
+    padding: 0 10px;
+}
+.about-tech-stack p:nth-child(1){
+    color: #000000;
+}
+.about-tech-stack p:nth-child(2){
+    /* color: #000000; */
+    font-weight: 200;
+}
+.skill-icons{
+    font-size: 4em;
+}
+.skill-icons i{
+    transition: color 0.2s ease;
+}
+.skill-icons i:hover{
+    color: #000000;
+}
+.button button{
+    background-color: #cddef5;
+    height: 40px;
+    width: 150px;
+    border: 2px solid #3c4043;
+    border-radius: 7px;
+    transition: all 0.2s ease;
+}
+.button button:hover{
+    color: white;
+    background-color: #3c4043;
+}
