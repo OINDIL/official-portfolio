@@ -1,0 +1,32 @@
+nav{
+    /* height: 20vh; */
+    height: 7vh;
+    width: 100vw;
+    background-color: #ffff;
+    position: fixed;
+    z-index: 1;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+}
+a{
+    color: rgb(91, 90, 90);
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+p{
+    font-size: 1.3em;
+    font-weight: 600;
+}
+.links ul{
+    display: flex;
+    gap: 15px;
+}
+.links ul li{
+    list-style-type: none;
+}
+.links ul li a:hover{
+    text-decoration: underline;
+    color: #1967d2;
+}
