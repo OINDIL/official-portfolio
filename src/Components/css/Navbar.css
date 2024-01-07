@@ -27,6 +27,5 @@ p{
     list-style-type: none;
 }
 .links ul li a:hover{
-    text-decoration: underline;
     color: #1967d2;
 }
