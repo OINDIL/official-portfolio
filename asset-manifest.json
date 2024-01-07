@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/official-portfolio/static/css/main.cb491ad8.css",
+    "main.js": "/official-portfolio/static/js/main.56b8e568.js",
+    "static/js/787.e60d4f09.chunk.js": "/official-portfolio/static/js/787.e60d4f09.chunk.js",
+    "static/media/my-image.png": "/official-portfolio/static/media/my-image.177ae223bee93d308ed7.png",
+    "static/media/hobby-section-pic.jpg": "/official-portfolio/static/media/hobby-section-pic.9eb88fbce02c73ee15d9.jpg",
+    "static/media/IMG_20240106_193909.jpg": "/official-portfolio/static/media/IMG_20240106_193909.367437975018cfa5ddea.jpg",
+    "static/media/weatherapp-sc.png": "/official-portfolio/static/media/weatherapp-sc.0d091edc284fc8f552ce.png",
+    "static/media/OINDIL GOLDER CV.pdf": "/official-portfolio/static/media/OINDIL GOLDER CV.e4f0d6c571b2850b17d5.pdf",
+    "static/media/text-og.png": "/official-portfolio/static/media/text-og.343af00ad501e19258ff.png",
+    "index.html": "/official-portfolio/index.html",
+    "main.cb491ad8.css.map": "/official-portfolio/static/css/main.cb491ad8.css.map",
+    "main.56b8e568.js.map": "/official-portfolio/static/js/main.56b8e568.js.map",
+    "787.e60d4f09.chunk.js.map": "/official-portfolio/static/js/787.e60d4f09.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.cb491ad8.css",
+    "static/js/main.56b8e568.js"
+  ]
+}
