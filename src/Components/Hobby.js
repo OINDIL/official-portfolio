@@ -15,7 +15,7 @@ function Hobby() {
                     <p>Photography</p>
                     <p>As a hobby.</p>
                     <div className="hobby-btn">
-                        <a href="#link"><button>Visit Instagram</button></a>
+                        <a href="https://www.instagram.com/oindil.golder/" target='_blank' rel='noreferrer'><button>Visit Instagram</button></a>
                     </div>
                 </div>
             </div>

@@ -1,5 +1,4 @@
 .about-section{
-    width: 100vw;
     height: 100vh;
     display: flex;
     flex-direction: column;
@@ -45,7 +44,8 @@
     padding: 0 10px;
 }
 .about-tech-stack p:nth-child(1){
-    color: #000000;
+    color: #3c4043;
+    font-size: 2em;
 }
 .about-tech-stack p:nth-child(2){
     /* color: #000000; */

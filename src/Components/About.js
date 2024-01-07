@@ -1,6 +1,7 @@
 import "./css/About.css";
 import React from "react";
 import myImage_2 from "./Images/IMG_20240106_193909.jpg"
+import myCV from './Files/OINDIL GOLDER CV.pdf'
 function About() {
     return (
         <>
@@ -27,7 +28,7 @@ function About() {
                             <i className="bx bxl-git"></i>
                         </div>
                         <div className="button">
-                            <button>Download CV</button>
+                            <a href={myCV}><button>Download CV</button></a>
                         </div>
                     </div>
                 </div>

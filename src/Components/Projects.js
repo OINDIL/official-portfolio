@@ -17,7 +17,7 @@ function Projects() {
                             <p>Generate Passwords. Manipulate Texts.</p>
                         </div>
                         <div className="project-btn">
-                            <a href="#link"><button>Take a look</button></a>
+                            <a href="https://oindil.github.io/textog/" target='_blank' rel="noreferrer"><button>Take a look</button></a>
                         </div>
                     </div>
 
@@ -31,7 +31,7 @@ function Projects() {
                             <p>Accurate Weather. At your fingertips.</p>
                         </div>
                         <div className="project-btn">
-                            <a href="#link"><button>Take a look</button></a>
+                            <a href="https://weatheroindil.netlify.app/" target='_blank' rel="noreferrer"><button>Take a look</button></a>
                         </div>
                     </div>
                 </div>

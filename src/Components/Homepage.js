@@ -9,7 +9,7 @@ function Homepage() {
                 <div className="intro-text">
                     <p>MERN stack developer. For creating websites from scratch.</p>
                     <p>Hi, I'm Oindil Golder. An aspiring MERN stack developer from Kolkata, India.</p>
-                    <button>Hire Me</button>
+                    <a href="#contact"><button>Hire Me</button></a>
                 </div>
                 <div className="image">
                     <img src={myImage} alt="" />
