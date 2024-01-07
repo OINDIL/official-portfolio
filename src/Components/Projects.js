@@ -5,7 +5,7 @@ import weatherapp from './Images/weatherapp-sc.png'
 function Projects() {
     return (
         <>
-            <div className='projects-section'>
+            <div className='projects-section' id='projects'>
                 <p>Projects</p>
                 <div className='projects-main'>
                     <div className="project-1">

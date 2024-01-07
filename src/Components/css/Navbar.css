@@ -29,3 +29,9 @@ p{
 .links ul li a:hover{
     color: #1967d2;
 }
+@media(max-width:480px){
+    nav{
+        bottom: 0;
+        filter: drop-shadow(0 0 0.09rem );
+    }
+}

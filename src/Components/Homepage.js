@@ -1,10 +1,10 @@
 import './css/Homepage.css'
 import React from 'react'
-import myImage from './Images/IMG20231230113813-removebg.png'
+import myImage from './Images/my-image.png'
 function Homepage() {
   return (
     <>
-        <section>
+        <section id='home'>
             <main>
                 <div className="intro-text">
                     <p>MERN stack developer. For creating websites from scratch.</p>

@@ -5,7 +5,7 @@ import myCV from './Files/OINDIL GOLDER CV.pdf'
 function About() {
     return (
         <>
-            <div className="about-section">
+            <div className="about-section" id="about">
                 <div className="intro-about">
                     <p>Know about me</p>
                 </div>

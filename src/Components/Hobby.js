@@ -5,7 +5,7 @@ import hobbyImage from './Images/hobby-section-pic.jpg'
 function Hobby() {
   return (
     <>
-        <div className="hobby-section">
+        <div className="hobby-section" id='hobby'>
             <p>Hobby</p>
             <div className="hobby-main">
                 <div className="hobby-img">
