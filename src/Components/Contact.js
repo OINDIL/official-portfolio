@@ -11,7 +11,7 @@ function Contact() {
     emailjs.sendForm(process.env.REACT_APP_SERVICE_ID, process.env.REACT_APP_TEMPLATE_ID , form.current, process.env.REACT_APP_PUBLIC_KEY)
       .then((result) => {
           console.log(result.text);
-          
+          alert('✅Your message is sent');
       }, (error) => {
           console.log(error.text);
       });
@@ -29,6 +29,7 @@ function Contact() {
                             <a href="https://www.linkedin.com/in/oindil-golder/" target='_blank' rel='noreferrer'><i className='bx bxl-linkedin-square'></i></a>
                             <a href="https://www.instagram.com/oindil.golder/" target='_blank' rel='noreferrer'><i className='bx bxl-instagram' ></i></a>
                             <a href="https://github.com/OINDIL" target='_blank' rel='noreferrer'><i className='bx bxl-github' ></i></a>
+                            <a href="https://www.facebook.com/profile.php?id=61555715216087" target='_blank' rel='noreferrer'><i class='bx bxl-facebook-circle'></i></a>
                             <a href={myCV} target='_blank' rel='noreferrer'><i className='bx bx-download' ></i></a>
                         </div>
                     </div>
