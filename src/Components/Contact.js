@@ -30,7 +30,7 @@ function Contact() {
                             <a href="https://www.instagram.com/oindil.golder/" target='_blank' rel='noreferrer'><i className='bx bxl-instagram' ></i></a>
                             <a href="https://github.com/OINDIL" target='_blank' rel='noreferrer'><i className='bx bxl-github' ></i></a>
                             <a href="https://www.facebook.com/profile.php?id=61555715216087" target='_blank' rel='noreferrer'><i class='bx bxl-facebook-circle'></i></a>
-                            <a href={myCV} target='_blank' rel='noreferrer'><i className='bx bx-download' ></i></a>
+                            <a title='Download CV' href={myCV} target='_blank' rel='noreferrer'><i className='bx bx-download' ></i></a>
                         </div>
                     </div>
                     <div className="contact-form">
