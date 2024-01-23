@@ -40,10 +40,7 @@ function Contact() {
                             <label>Email</label>
                             <input type="email" name="user_email" />
                             <label>Message</label>
-                            <textarea name="message" />
-                            <div id="result-display">
-                                <p id='result-p'>hello</p>
-                            </div>
+                            <textarea name="message"/>
                             <input type="submit" value="Send" />
                         </form>
                     </div>

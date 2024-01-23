@@ -1,5 +1,9 @@
+.active{
+    text-decoration: underline;
+    font-weight: bold;
+    color: #1967d2;
+}
 nav{
-    /* height: 20vh; */
     height: 7vh;
     width: 100vw;
     background-color: #ffff;
