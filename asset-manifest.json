@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/official-portfolio/static/css/main.cb5def1e.css",
+    "main.css": "/official-portfolio/static/css/main.5323f44c.css",
     "main.js": "/official-portfolio/static/js/main.3c3b2c2b.js",
     "static/js/787.e60d4f09.chunk.js": "/official-portfolio/static/js/787.e60d4f09.chunk.js",
     "static/media/my-image.png": "/official-portfolio/static/media/my-image.177ae223bee93d308ed7.png",
@@ -10,12 +10,12 @@
     "static/media/OINDIL GOLDER CV.pdf": "/official-portfolio/static/media/OINDIL GOLDER CV.e4f0d6c571b2850b17d5.pdf",
     "static/media/text-og.png": "/official-portfolio/static/media/text-og.343af00ad501e19258ff.png",
     "index.html": "/official-portfolio/index.html",
-    "main.cb5def1e.css.map": "/official-portfolio/static/css/main.cb5def1e.css.map",
+    "main.5323f44c.css.map": "/official-portfolio/static/css/main.5323f44c.css.map",
     "main.3c3b2c2b.js.map": "/official-portfolio/static/js/main.3c3b2c2b.js.map",
     "787.e60d4f09.chunk.js.map": "/official-portfolio/static/js/787.e60d4f09.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.cb5def1e.css",
+    "static/css/main.5323f44c.css",
     "static/js/main.3c3b2c2b.js"
   ]
 }
