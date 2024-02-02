@@ -1,12 +1,11 @@
 import './css/Hobby.css'
 import React from 'react'
-import hobbyImage from './Images/hobby-section-pic.jpg'
+import hobbyImage from './Images/hobby-pic.png'
 
 function Hobby() {
   return (
     <>
         <div className="hobby-section" id='hobby'>
-            <p>Hobby</p>
             <div className="hobby-main">
                 <div className="hobby-img">
                     <img src={hobbyImage} alt="" />

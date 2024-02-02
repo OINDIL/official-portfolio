@@ -26,6 +26,9 @@ main{
     gap: 25px;
     padding: 0 100px;
 }
+.intro-text #emoji-span{
+    font-size: 1.4em;
+}
 .intro-text p:nth-child(1){
     font-size: 3em;
     line-height: 50px;
@@ -43,6 +46,9 @@ main{
     color: white;
     border-radius: 4px;
     transition: all 0.1s ease;
+}
+.intro-text a{
+    width: 150px;
 }
 button:hover{
     background-color: #1357b6;
