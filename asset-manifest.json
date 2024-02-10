@@ -1,21 +1,21 @@
 {
   "files": {
-    "main.css": "/official-portfolio/static/css/main.e315c8c6.css",
-    "main.js": "/official-portfolio/static/js/main.b75f7e3a.js",
+    "main.css": "/official-portfolio/static/css/main.b4bfe130.css",
+    "main.js": "/official-portfolio/static/js/main.6247aec1.js",
     "static/js/787.e60d4f09.chunk.js": "/official-portfolio/static/js/787.e60d4f09.chunk.js",
-    "static/media/IMG_20240106_193909.jpg": "/official-portfolio/static/media/IMG_20240106_193909.367437975018cfa5ddea.jpg",
     "static/media/my-image-2.jpg": "/official-portfolio/static/media/my-image-2.acbedd1b1e79be388bb8.jpg",
+    "static/media/About-Image.jpg": "/official-portfolio/static/media/About-Image.cdc43992ade9fce88e0d.jpg",
     "static/media/weatherapp-sc.png": "/official-portfolio/static/media/weatherapp-sc.0d091edc284fc8f552ce.png",
     "static/media/hobby-pic.png": "/official-portfolio/static/media/hobby-pic.4b090bf0f48edc6b41a3.png",
     "static/media/OINDIL GOLDER CV.pdf": "/official-portfolio/static/media/OINDIL GOLDER CV.e4f0d6c571b2850b17d5.pdf",
-    "static/media/text-og.png": "/official-portfolio/static/media/text-og.343af00ad501e19258ff.png",
+    "static/media/text-og.png": "/official-portfolio/static/media/text-og.9a365dce28f7d69cb96e.png",
     "index.html": "/official-portfolio/index.html",
-    "main.e315c8c6.css.map": "/official-portfolio/static/css/main.e315c8c6.css.map",
-    "main.b75f7e3a.js.map": "/official-portfolio/static/js/main.b75f7e3a.js.map",
+    "main.b4bfe130.css.map": "/official-portfolio/static/css/main.b4bfe130.css.map",
+    "main.6247aec1.js.map": "/official-portfolio/static/js/main.6247aec1.js.map",
     "787.e60d4f09.chunk.js.map": "/official-portfolio/static/js/787.e60d4f09.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.e315c8c6.css",
-    "static/js/main.b75f7e3a.js"
+    "static/css/main.b4bfe130.css",
+    "static/js/main.6247aec1.js"
   ]
 }
