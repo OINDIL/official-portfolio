@@ -28,7 +28,6 @@
     flex-direction: column;
     gap: 8px;
     /* background-color: #3c4043; */
-    z-index: 1;
 }
 .contact-card > p{
     font-size: 2.5em;
@@ -57,7 +56,6 @@
     flex-direction: column;
     /* background-color: #3c4043; */
     height: 60%;
-    z-index: 1;
 }
 .contact-form > p{
     font-size: 2em;

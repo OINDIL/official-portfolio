@@ -6,7 +6,7 @@ section{
     align-items: center;
 }
 main{
-    background-color: #cddef5;
+    /* background-color: #cddef5; */
     display: flex;
     align-items: center;
     position: relative;
@@ -29,10 +29,15 @@ main{
 .intro-text #emoji-span{
     font-size: 1.4em;
 }
-.intro-text p:nth-child(1){
+.intro-text h1{
     font-size: 3em;
-    line-height: 50px;
+    font-weight: 500;
+    line-height: 65px;
 }
+/* .intro-text p:nth-child(1){
+    font-size: 3.5em;
+    line-height: 60px;
+} */
 .intro-text p:nth-child(2){
     font-weight: 400;
     font-size: 1em;
@@ -79,8 +84,9 @@ button:hover{
         width: 100%;
         padding: 50px 20px;
     }
-    .intro-text p:nth-child(1){
+    .intro-text h1{
         font-size: 1.7em;
+        font-weight: 600;
         line-height: 40px;
     }
     .image{

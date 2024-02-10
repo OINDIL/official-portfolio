@@ -7,12 +7,12 @@ function Homepage() {
         <section id='home'>
             <main>
                 <div className="intro-text">
-                    <p>MERN Stack Developer. For creating websites from scratch.</p>
+                    <h1>MERN Stack Developer. For creating websites from scratch.</h1>
                     <p><span id='emoji-span'>👋</span>, I'm <span className='name-span'>Oindil Golder</span>. An aspiring MERN stack developer from Kolkata, India.</p>
                     <a href="#contact"><button>Contact Me</button></a>
                 </div>
                 <div className="image">
-                    <img src={myImage} alt="My-Image" />
+                    <img src={myImage} alt="" />
                 </div>
             </main>
         </section>
