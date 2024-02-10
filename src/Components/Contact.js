@@ -18,7 +18,6 @@ function Contact() {
     return (
         <>
             <div className="contact-section" id='contact'>
-                <p>Contact</p>
                 <div className="contact-main">
                     <div className="contact-card">
                         <p>Oindil Golder</p>

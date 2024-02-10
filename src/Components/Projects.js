@@ -14,7 +14,7 @@ function Projects() {
                         </div>
                         <div className="project-desc">
                             <p>Text.dev</p>
-                            <p>Generate Passwords. Manipulate Texts.</p>
+                            <p>Generate Passwords. Check Password Strength.</p>
                         </div>
                         <div className="project-btn">
                             <a href="https://oindil.github.io/textog/" target='_blank' rel="noreferrer"><button>Take a look</button></a>
@@ -27,8 +27,8 @@ function Projects() {
                             <img src={weatherapp} alt="weather-app" />
                         </div>
                         <div className="project-desc">
-                            <p>WeatherApp</p>
-                            <p>Accurate Weather. At your fingertips.</p>
+                            <p>Weather App</p>
+                            <p>Accurate Weather. At Your Fingertips.</p>
                         </div>
                         <div className="project-btn">
                             <a href="https://weatheroindil.netlify.app/" target='_blank' rel="noreferrer"><button>Take a look</button></a>
