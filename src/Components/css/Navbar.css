@@ -1,6 +1,6 @@
 .active{
     font-weight: bold;
-    color: #1967d2;
+    color: #189878;
 }
 nav{
     height: 7vh;
@@ -30,7 +30,7 @@ p{
     list-style-type: none;
 }
 .links ul li a:hover{
-    color: #1967d2;
+    color: #0f5b48;
 }
 @media(max-width:480px){
     nav{

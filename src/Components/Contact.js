@@ -20,9 +20,9 @@ function Contact() {
             <div className="contact-section" id='contact'>
                 <div className="contact-main">
                     <div className="contact-card">
-                        <p>Oindil Golder</p>
+                        <p>Oindil Golder &lt;/&gt;</p>
                         <a href="mailto:oindilgolder303@gmail.com">oindilgolder303@gmail.com</a>
-                        <a href="tel:+917908775680">+917908775680</a>
+                        <a href="tel:+917908775680">+9179******80</a>
                         <div className="contact-links">
                             <a href="https://www.linkedin.com/in/oindil-golder/" target='_blank' rel='noreferrer'><i className='bx bxl-linkedin-square'></i></a>
                             <a href="https://www.instagram.com/oindil.golder/" target='_blank' rel='noreferrer'><i className='bx bxl-instagram' ></i></a>

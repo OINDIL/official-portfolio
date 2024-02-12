@@ -6,7 +6,7 @@
     align-items: center;
 }
 .hobby-main{
-    background-color: #cedbdf;
+    background-color: #d2b576;
     display: flex;
     align-items: center;
     justify-content: space-around;
@@ -17,7 +17,7 @@
 }
 .hobby-img{
     /* background-color: #3c4043; */
-    filter: drop-shadow(0 0 0.25rem #3c4043);
+    filter: drop-shadow(0 0 0.15rem #3c4043);
     height: 80%;
     width: 40%;
 }
@@ -39,7 +39,7 @@
     color: #3c4043;
 }
 .hobby-desc > p:nth-child(2){
-    color: #a15501;
+    color: #7b4608;
     font-size: 3em;
 }
 .hobby-btn{
@@ -48,7 +48,8 @@
     justify-content: center;
 }
 .hobby-btn button{
-    background-color: #cedbdf;
+    background-color: #d2b576;
+    color: #3c4043;
     height: 40px;
     width: 150px;
     border: 2px solid #3c4043;
