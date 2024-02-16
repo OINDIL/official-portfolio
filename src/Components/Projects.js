@@ -1,41 +1,31 @@
-import './css/Projects.css'
+import textDev from './Images/text-og.png'
+import weatheroindil from './Images/weatherapp-sc.png'
 import React from 'react'
-import passwordgen from './Images/text-og.png'
-import weatherapp from './Images/weatherapp-sc.png'
+import ProjectsRender from './Projects Component/ProjectsRender'
+import './css/Projects.css'
+
 function Projects() {
+    const projects = [
+        { name: 'Text.dev', quote: 'Generate Passwords. Check Password Strength.', link: 'https://oindil.github.io/textog/',images:textDev },
+        { name: 'Weather App', quote: 'Accurate Weather. At Your Fingertips.', link: 'https://weatheroindil.netlify.app/',images:weatheroindil}
+    ]
     return (
         <>
-            <div className='projects-section' id='projects'>
+            <div className="projects-heading" id='projects'>
                 <p>Projects</p>
-                <div className='projects-main'>
-                    <div className="project-1">
-                        <div className="project-img">
-                            <img src={passwordgen} alt="password-generator" />
-                        </div>
-                        <div className="project-desc">
-                            <p>Text.dev</p>
-                            <p>Generate Passwords. Check Password Strength.</p>
-                        </div>
-                        <div className="project-btn">
-                            <a href="https://oindil.github.io/textog/" target='_blank' rel="noreferrer"><button>Take a look</button></a>
-                        </div>
-                    </div>
-
-
-                    <div className="project-2">
-                        <div className="project-img">
-                            <img src={weatherapp} alt="weather-app" />
-                        </div>
-                        <div className="project-desc">
-                            <p>Weather App</p>
-                            <p>Accurate Weather. At Your Fingertips.</p>
-                        </div>
-                        <div className="project-btn">
-                            <a href="https://weatheroindil.netlify.app/" target='_blank' rel="noreferrer"><button>Take a look</button></a>
-                        </div>
-                    </div>
-                </div>
             </div>
+            <div className="projects-container">
+                {projects.map((item) => {
+                    return (
+                        <div className='projects-section' key={item.link}>
+                                <ProjectsRender data={item}/>
+                        </div>
+                    )
+                })}
+            </div>
+                <div className="outro-projects">
+                    <p>More projects coming soon... Until then take a look at my <a href="https://github.com/OINDIL" target='_blank' rel='noreferrer'>Github</a> profile</p>
+                </div>
         </>
     )
 }

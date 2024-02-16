@@ -1,0 +1,34 @@
+.projects-heading{
+    height: 15vh;
+    font-size: 2em;
+    color: #3c4043;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.projects-container{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding-bottom: 35px;
+    /* border-bottom: 1px solid; */
+}
+.outro-projects{
+    /* background-color: #3c4043; */
+    text-align: center;
+}
+.outro-projects p{
+    font-size: 0.9em;
+    font-weight: 400;
+}
+.outro-projects a{
+    color: #3c4043;
+}
+@media(max-width:480px){
+    .projects-container{
+        flex-direction: column;
+    }
+}

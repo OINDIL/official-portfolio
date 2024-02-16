@@ -34,6 +34,8 @@
     color: #3c4043;
 }
 .contact-card > a{
+    color: #3c4043;
+    text-decoration: none;
     font-size: 1.5em;
 }
 .contact-card > a:hover{
@@ -44,6 +46,7 @@
     gap: 10px;
 }
 .contact-card .contact-links i{
+    color:#3c4043;
     font-size: 1.9em;
     transition: color 0.2s ease;
 }
@@ -75,7 +78,7 @@
     height: 40px;
     width: 150px;
     border: 2px solid #3c4043;
-    border-radius: 7px;
+    border-radius: 30px;
     transition: all 0.2s ease;
 }
 .contact-form form input{
@@ -94,11 +97,23 @@
     background-color: #f8f9fa;
     border-radius: 7px;
 }
+.contact-btn{
+    display: flex;
+    justify-content: center;
+    gap: 4px;
+}
 .contact-form form input[type='submit']:hover{
     color: white;
     background-color: #3c4043;
     cursor: pointer;
 }
+.contact-form form input[type='reset']{
+    border: none;
+    cursor: pointer;
+    text-decoration: underline;
+    height: 40px;
+    width: 150px;
+}   
 @media(max-width: 780px){
     .contact-main{
         flex-direction: column;

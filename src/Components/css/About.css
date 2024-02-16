@@ -86,7 +86,7 @@
     height: 40px;
     width: 150px;
     border: 2px solid #3c4043;
-    border-radius: 7px;
+    border-radius: 30px;
     transition: all 0.2s ease;
 }
 .button button:hover{

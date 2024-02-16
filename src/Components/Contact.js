@@ -20,7 +20,7 @@ function Contact() {
             <div className="contact-section" id='contact'>
                 <div className="contact-main">
                     <div className="contact-card">
-                        <p>Oindil Golder &lt;/&gt;</p>
+                        <p>Oindil Golder</p>
                         <a href="mailto:oindilgolder303@gmail.com">oindilgolder303@gmail.com</a>
                         <a href="tel:+917908775680">+9179******80</a>
                         <div className="contact-links">
@@ -39,8 +39,11 @@ function Contact() {
                             <label>Email</label>
                             <input type="email" name="user_email" />
                             <label>Message</label>
-                            <textarea name="message"/>
-                            <input type="submit" value="Send" />
+                            <textarea name="message" />
+                            <div className="contact-btn">
+                                <input type="submit" value="Send" />
+                                <input type="reset" value="Reset" />
+                            </div>
                         </form>
                     </div>
                 </div>
