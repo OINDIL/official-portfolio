@@ -125,4 +125,7 @@
         width: 90%;
         height: 50%;
     }
+    .contact-card > p{
+        font-size: 2em;
+    }
 }
