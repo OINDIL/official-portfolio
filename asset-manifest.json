@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/official-portfolio/static/css/main.b4bfe130.css",
-    "main.js": "/official-portfolio/static/js/main.6247aec1.js",
+    "main.css": "/official-portfolio/static/css/main.385ae595.css",
+    "main.js": "/official-portfolio/static/js/main.6e2e782b.js",
     "static/js/787.e60d4f09.chunk.js": "/official-portfolio/static/js/787.e60d4f09.chunk.js",
     "static/media/my-image-2.jpg": "/official-portfolio/static/media/my-image-2.acbedd1b1e79be388bb8.jpg",
     "static/media/About-Image.jpg": "/official-portfolio/static/media/About-Image.cdc43992ade9fce88e0d.jpg",
@@ -10,12 +10,12 @@
     "static/media/OINDIL GOLDER CV.pdf": "/official-portfolio/static/media/OINDIL GOLDER CV.e4f0d6c571b2850b17d5.pdf",
     "static/media/text-og.png": "/official-portfolio/static/media/text-og.9a365dce28f7d69cb96e.png",
     "index.html": "/official-portfolio/index.html",
-    "main.b4bfe130.css.map": "/official-portfolio/static/css/main.b4bfe130.css.map",
-    "main.6247aec1.js.map": "/official-portfolio/static/js/main.6247aec1.js.map",
+    "main.385ae595.css.map": "/official-portfolio/static/css/main.385ae595.css.map",
+    "main.6e2e782b.js.map": "/official-portfolio/static/js/main.6e2e782b.js.map",
     "787.e60d4f09.chunk.js.map": "/official-portfolio/static/js/787.e60d4f09.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.b4bfe130.css",
-    "static/js/main.6247aec1.js"
+    "static/css/main.385ae595.css",
+    "static/js/main.6e2e782b.js"
   ]
 }
