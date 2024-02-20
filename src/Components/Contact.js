@@ -1,7 +1,7 @@
 import './css/Contact.css'
 import React, { useRef } from 'react';
 import emailjs from '@emailjs/browser';
-import myCV from './Files/OINDIL GOLDER CV.pdf'
+import myCV from './Files/OINDIL_GOLDER_CV.pdf'
 function Contact() {
     const form = useRef();
     const sendEmail = (e) => {

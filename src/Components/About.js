@@ -1,7 +1,7 @@
 import "./css/About.css";
 import React from "react";
 import myImage_2 from "./Images/About-Image.jpg"
-import myCV from './Files/OINDIL GOLDER CV.pdf'
+import myCV from './Files/OINDIL_GOLDER_CV.pdf'
 function About() {
     return (
         <>
