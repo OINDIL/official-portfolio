@@ -47,6 +47,7 @@ function Contact() {
                         </form>
                     </div>
                 </div>
+                <h6>Updating the portfolio, wait for a new redesign</h6>
             </div>
         </>
     )

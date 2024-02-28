@@ -16,7 +16,6 @@ main{
 
 }
 .intro-text{
-    /* background-color: #3c4043; */
     width: 60%;
     height: 100%;
     color: #3c4043;
@@ -32,12 +31,9 @@ main{
 .intro-text h1{
     font-size: 3em;
     font-weight: 500;
-    line-height: 65px;
+    line-height: 59px;
 }
-/* .intro-text p:nth-child(1){
-    font-size: 3.5em;
-    line-height: 60px;
-} */
+
 .intro-text p:nth-child(2){
     font-weight: 400;
     font-size: 1em;
@@ -104,7 +100,7 @@ button:hover{
         border-radius: 0%;
     }
     .intro-text{
-        gap: 25px;
+        gap: 10px;
         justify-content: flex-start;
         font-size: 1.4em;
         height: 60%;

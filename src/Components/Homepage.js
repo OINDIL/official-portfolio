@@ -12,7 +12,6 @@ function Homepage() {
             t1.from('#title-1',{
                 opacity:0,
                 duration:2,
-                // delay:0.3,
             }).from('#title-2',{
                 opacity:0,
                 duration:2
